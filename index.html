@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <header class="topo">
+        <h1>Calculadora de IMC</h1>
+    </header>
+    <main>
+        <h3>Calculadora</h3>
+        <form>
+            <div class="geral">
+                <div class="peso">
+                    <h2> Informe seu peso</h2>
+                    <input id="peso" type="number" name="peso" id="peso" placeholder="Exemplo 78">
+                </div>
+
+                <div class="altura">
+                    <h2> Informe sua altura</h2>
+                    <input id="altura" type="number" name="altura" id="altura" placeholder="Exemplo 1.70">
+                </div>
+
+                <div class="imc">
+                    <button class="personalizar" id="calcula" onclick="calcimc()">Calcule seu IMC</button>
+                </div>
+                
+                <div class="limpardados">
+                    <input class="estilolimpadados" type="reset" value="Limpar Dados" id="limpardados"
+                        onclick="limpar()">
+                </div>
+            </div>
+
+            <div id="campoTexto">
+                <textarea name="texto" id="tex" cols="30" rows="5"> </textarea></label>
+            </div>
+
+            </div>
+        </form>
+    </main>
+        <footer>
+        <p> Projeto desenvolvido por <a href="https://www.linkedin.com/in/brunoalaorcosta/"><span>Bruno Costa</span></a>
+            para treinamento de HTML/CSS e Javascript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+.topo {
+    background-image: url(imagem1600x380.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding: 150px 150px;
+
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+main {
+    background-color: rgba(128, 128, 128, 0.253);
+    width: 98.9vw;
+    height: 600px;
+
+}
+
+.peso {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.altura {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+
+.imc {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.limpardados {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+#tex {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.personalizar {
+    width: 190px;
+    height: 50px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(66, 123, 138);
+    font-weight: bold;
+
+
+}
+
+.estilolimpadados {
+    width: 190px;
+    height: 50px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(66, 123, 138);
+    font-weight: bold;
+
+
+}
+
+.estilolimpadados:hover {
+    background-color: rgb(45, 45, 126);
+}
+
+.personalizar:hover {
+    background-color: rgb(45, 45, 126);
+}
+
+#campoTexto {
+    font-size: 100px;
+    text-align: center;
+
+
+}
+
+textarea {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding: auto;
+
+}
+
+input {
+    text-align: center;
+
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+
+
+#peso {
+    margin-top: 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#altura {
+
+    margin-top: 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+
+
+}
+
+footer {
+    width: 100%vw;
+    height: 50px;
+    background-color: black;
+    padding-top: 30px;
+
+}
+
+footer>p {
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    color: rgb(66, 123, 138);
+}
