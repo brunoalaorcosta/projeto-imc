@@ -10,8 +10,10 @@
     .geral{
         width: 100%vw;
     }
-
-
+    
+    span {
+        color: red;
+    }
 
 
 }
