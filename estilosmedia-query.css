@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    .topo{
+        width: 100%vw;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .geral{
+        width: 100%vw;
+    }
+
+
+
+
+}
