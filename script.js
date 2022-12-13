@@ -6,9 +6,9 @@
             var texto = ''
 
             if (imc < 18.5) {
-                texto = `Seu IMC é de ${imc}, e você está abaixo do peso normal`
+                texto = `Seu IMC é de ${imc}, e você está abaixo do peso ideal`
             } else if (imc < 24.9) {
-                texto = `Seu IMC é de ${imc}, e você está no peso peso normal`
+                texto = `Seu IMC é de ${imc}, e você está no peso ideal`
             } else if (imc < 29.9) {
                 texto = `Seu IMC é de ${imc}, e você está  com excesso de peso`
             } else if (imc < 35.9) {
