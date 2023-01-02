@@ -1,9 +1,9 @@
 
         function calcimc() {
-            var peso = document.querySelector('#peso').value;
-            var altura = document.querySelector('#altura').value;
-            var imc = (peso / (altura * altura)).toFixed(2);
-            var texto = ''
+            let peso = document.querySelector('#peso').value;
+            let altura =  document.querySelector('#altura').value;
+            let imc = (peso / (altura ** 2)).toFixed(2);
+            let texto = ''
 
             if (imc < 18.5) {
                 texto = `Seu IMC é de ${imc}, e você está abaixo do peso ideal`
@@ -15,7 +15,7 @@
                 texto = `Seu IMC é de ${imc}, e você está com obesidade classe I`
             } else if (imc < 39.9) {
                 texto = `Seu IMC é de ${imc}, e você está com obesidade classe II`
-            } else if (imc >= 40) {
+            } else if  (imc >= 40) {
                 texto = `Seu IMC é de ${imc}, e você está com obesidade classe III`
             }
 
@@ -23,9 +23,17 @@
         }
 
         function limpar() {
-            var campoTexto = ""
-            document.getElementById("campoTexto").value = "";
+            let campoTexto = ""
+            document.getElementById("altura").value = "";
+            document.getElementById("peso").value = "";
+            document.getElementById("tex").value = "";
+
+
         }
+
+
+
+
 
 
     
